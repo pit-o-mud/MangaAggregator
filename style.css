@@ -1,5 +1,65 @@
-title{
-    flex:1;
-    font-size:100;
-    
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mukta', sans-serif;
+}
+
+/* .header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(94, 101, 114, 0.8), rgba(94, 101, 114, 0.4)), url(images/banner2.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    box-shadow: 0 0 8px 8px #EEF1EF inset; 
+} */
+.nav_bar{
+    overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%;
+    background-color: #EEF1EF;
+    box-shadow: -2px 2px 5px #a0aabc ;
+}
+
+.nav_bar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+html{
+    background-color: #A9B4C2;
+}
+
+.nav_bar a {
+    float: left;
+    display: block;
+    color: #1C2321;
+    text-align: center;
+    padding: 23px 16px;
+    text-decoration: none;
+  }
+.nav_bar h1 {
+    float: left;
+    display: block;
+    color: #1C2321;
+    text-align: center;
+    font-size: 27;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+
+.title{
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 50;
+    color: #000000;
+}
+
+body::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
 }
